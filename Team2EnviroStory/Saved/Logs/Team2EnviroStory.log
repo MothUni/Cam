@@ -2742,3 +2742,110 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2025.12.08-14.37.08:390][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2025.12.08-14.37.08:546][631]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2405644/Documents/Unreal Projects/EnvironmentalStorytelling/Team2EnviroStory/Saved/SourceControl/UncontrolledChangelists.json
 [2025.12.08-14.37.25:450][312]LogDerivedDataCache: C:/Users/2405644/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.08-14.38.37:751][528]LogShaderCompilers: Display: ================================================
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Total job queries 426, among them cache hits 24 (5.63%), DDC hits 321 (75.35%), Duplicates 69 (16.20%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Tracking 333 distinct input hashes that result in 243 distinct outputs (72.97%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: RAM used: 3.36 MiB of 1.60 GiB budget. Usage: 0.20%
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Average time worker was idle: 3.85 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.09 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Job execution time: average 0.76 s, max 1.74 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Job life time (pending + execution): average 0.80 s, max 1.82
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Shader code size: total 130.31 KiB, numShaders 13, average 10.023 KiB, min 3.607 KiB, max 18.673 KiB
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.06 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Average processing rate: 3.92 jobs/sec
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Total thread time: 5.714 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Total thread preprocess time: 7.388 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Percentage time preprocessing: 129.31%
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Effective parallelization: 1.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.186735
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.25 sec, max 1.25 sec, min 1.25 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.69 sec, max 0.86 sec, min 0.52 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.42 sec, max 0.42 sec, min 0.42 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.07% of total time (compiled    2 times, average 0.69 sec, max 0.86 sec, min 0.52 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 21.89% of total time (compiled    1 times, average 1.25 sec, max 1.25 sec, min 1.25 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                                  FVelocityPS - 21.22% of total time (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                               FNiagaraShader - 14.17% of total time (compiled    7 times, average 0.12 sec, max 0.18 sec, min 0.08 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.37% of total time (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: === Material stats ===
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Materials Translated:    145
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Material Translation Only: 0.05 s (41%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: Material Cache Hits: 18 (12%)
+[2025.12.08-14.38.37:752][528]LogShaderCompilers: Display: ================================================
+[2025.12.08-14.38.48:114][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.12.08-14.38.48:165][559]LogStall: Shutdown...
+[2025.12.08-14.38.48:165][559]LogStall: Shutdown complete.
+[2025.12.08-14.38.48:203][559]LogSlate: Window 'Team2EnviroStory - Unreal Editor' being destroyed
+[2025.12.08-14.38.48:332][559]Cmd: QUIT_EDITOR
+[2025.12.08-14.38.48:332][560]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.08-14.38.48:338][560]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.08-14.38.48:339][560]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.08-14.38.48:339][560]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.08-14.38.48:340][560]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:340][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:340][560]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Static/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2025.12.08-14.38.48:350][560]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.08-14.38.48:350][560]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.12.08-14.38.48:350][560]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.08-14.38.48:355][560]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:355][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:356][560]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:356][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:356][560]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:356][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:357][560]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:357][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:357][560]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:357][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:357][560]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-14.38.48:357][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-14.38.48:357][560]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.12.08-14.38.48:358][560]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.08-14.38.48:364][560]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.12.08-14.38.48:365][560]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.08-14.38.48:365][560]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.08-14.38.48:365][560]LogAudio: Display: Audio Device unregistered from world 'Lvl_FirstPerson'.
+[2025.12.08-14.38.48:365][560]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.08-14.38.48:365][560]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.12.08-14.38.48:368][560]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.12.08-14.38.48:377][560]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.08-14.38.48:377][560]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.08-14.38.48:378][560]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.12.08-14.38.48:380][560]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.08-14.38.48:381][560]LogExit: Preparing to exit.
+[2025.12.08-14.38.48:431][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.08-14.38.49:277][560]LogEditorDataStorage: Deinitializing
+[2025.12.08-14.38.49:378][560]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.08-14.38.49:396][560]LogExit: Editor shut down
+[2025.12.08-14.38.49:401][560]LogExit: Transaction tracking system shut down
+[2025.12.08-14.38.49:537][560]LogExit: Object subsystem successfully closed.
+[2025.12.08-14.38.49:594][560]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.08-14.38.49:690][560]LogMemoryProfiler: Shutdown
+[2025.12.08-14.38.49:690][560]LogNetworkingProfiler: Shutdown
+[2025.12.08-14.38.49:690][560]LoadingProfiler: Shutdown
+[2025.12.08-14.38.49:690][560]LogTimingProfiler: Shutdown
+[2025.12.08-14.38.49:690][560]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.08-14.38.49:690][560]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.08-14.38.50:279][560]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.08-14.38.50:279][560]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.08-14.38.50:279][560]RenderDocPlugin: plugin has been unloaded.
+[2025.12.08-14.38.50:305][560]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.08-14.38.50:306][560]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C6EA0C1-46C3-E3AB-9065-278698ED2031%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=b89070fa4636c4daede487bac005ec04%7C%7Cb046b339-d66b-49fb-ae25-926b03f57fbc&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.08-14.38.50:851][560]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.08-14.38.50:861][560]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.08-14.38.50:861][560]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.08-14.38.50:861][560]LogPakFile: Destroying PakPlatformFile
+[2025.12.08-14.38.51:152][560]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.08-14.38.51:189][560]LogExit: Exiting.
+[2025.12.08-14.38.51:205][560]Log file closed, 12/08/25 14:38:51
